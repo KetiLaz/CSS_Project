@@ -37,7 +37,7 @@ a {
 button {
     color: white;
     width: 100px;
-    border-radius: 15%;
+    border-radius: 25px;
 }
 
 .placeholder {
@@ -70,4 +70,56 @@ figcaption{
 
 .section_two {
     display: flex;
+}
+
+.section_three {
+    background-color: #E5E7EB;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoter{
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.sign_up{
+    border: 1px solid white;
+    background-color: transparent;
+    align-self: flex-end;
+    margin-top: -70px;
+    margin-right: 70px;
+}
+
+.section_four {
+    min-height: 20vh;
+    margin: 80px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1F2937;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
