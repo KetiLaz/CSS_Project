@@ -1,19 +1,47 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf), format("truetype");
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-LightItalic.ttf), format("truetype");
+    font-weight: light;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .first_sec{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     min-height: 60vh;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .sec_link_text{
     font-size: 18px;
     color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .header_one{
@@ -21,23 +49,27 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
 a {
     text-decoration: none;
 }
 
 .main_text {
     font-size: 48px;
-    font-weight: extra bold;
+    font-weight: bolder;
     color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button_action {
     background-color: #3882F6;
 }
+
 button {
     color: white;
     width: 100px;
     border-radius: 25px;
+    border: 0px;
 }
 
 .placeholder {
@@ -49,9 +81,10 @@ button {
 
 .info{
     font-size: 36px;
-    font-weight: extra bold;
+    font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .info_images{
@@ -82,6 +115,7 @@ figcaption{
 }
 
 .quote{
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
@@ -114,6 +148,7 @@ h2{
     color: #E5E7EB;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer{
