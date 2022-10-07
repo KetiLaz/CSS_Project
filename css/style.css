@@ -101,6 +101,7 @@ button {
     margin-top: -240px;
     margin-right: 70px;
 }
+
 .section_two {
     display: flex;
     flex-wrap: wrap;
@@ -162,14 +163,14 @@ figcaption{
     border: 1px solid white;
     background-color: transparent;
     align-self: flex-end;
-    margin-top: -70px;
+    margin-top: -60px;
     margin-right: 90px;
     min-height: 30px;
 }
 
 .section_four {
     min-height: 20vh;
-    margin: 90px;
+    margin: 100px;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -187,6 +188,7 @@ h2{
 
 .newsletter {
     margin-left: 120px;
+    margin-top: -10px;
 }
 
 footer{
@@ -195,4 +197,43 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .section_two{
+        justify-content: center;
+
+    }
+    button {
+        margin-left: 0px;
+    }
+   .main_text {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .subtext {
+        width: 95%;
+        margin-left: 20px;
+    }
+    .placeholder{
+        width:450px;
+        order: -1;
+        margin-right:80px;
+        margin-top: 40px;
+    }
+    .logo {
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .header_one{
+        order: -2;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .first_sec{
+        width: 100%;
+        align-items: center;
+    }
 }
