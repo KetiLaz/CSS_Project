@@ -27,7 +27,15 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    min-height: 60vh;
+    flex-wrap: wrap;
+    min-height: 70vh;
+}
+.header_one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .logo {
@@ -35,6 +43,17 @@ body{
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    align-self: center;
+    margin-left: 55px;
+}
+
+nav{
+    margin-right: 55px;
+}
+
+.nav_a {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .sec_link_text{
@@ -42,12 +61,6 @@ body{
     color: #E5E7EB;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-}
-
-.header_one{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 a {
@@ -59,26 +72,40 @@ a {
     font-weight: bolder;
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
+    margin: 55px;
+    margin-top: 80px;   
+    width: 45%;
 }
-
+.subtext{
+    margin-left: 55px;
+    width: 50%;
+    margin-top: -40px;
+}
 .button_action {
     background-color: #3882F6;
 }
 
 button {
     color: white;
-    width: 100px;
+    width: 120px;
     border-radius: 25px;
     border: 0px;
+    margin-left: 55px;
+    min-height: 30px;
 }
 
 .placeholder {
     width: 500px;
     height: auto;
     align-self: flex-end;
-    margin-top: -200px;
+    margin-top: -240px;
+    margin-right: 70px;
 }
-
+.section_two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .info{
     font-size: 36px;
     font-weight: bolder;
@@ -88,8 +115,9 @@ button {
 }
 
 .info_images{
-    width: 240px;
-    height: 200px;
+    width: 220px;
+    height: 190px;
+    border-radius: 10px;
 }
 
 figure{
@@ -99,19 +127,18 @@ figure{
 figcaption{
     display: table-caption;
     caption-side: bottom;
-}
-
-.section_two {
-    display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section_three {
     background-color: #E5E7EB;
-    min-height: 25vh;
+    min-height: 20vh;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .quote{
@@ -120,12 +147,15 @@ figcaption{
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+    
 }
 
 .quoter{
     font-size: 16px;
     font-weight: bold;
     align-self: flex-end;
+    margin-right: 50px;
+    margin-bottom: 90px;
 }
 
 .sign_up{
@@ -133,14 +163,16 @@ figcaption{
     background-color: transparent;
     align-self: flex-end;
     margin-top: -70px;
-    margin-right: 70px;
+    margin-right: 90px;
+    min-height: 30px;
 }
 
 .section_four {
     min-height: 20vh;
-    margin: 80px;
+    margin: 90px;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -149,6 +181,12 @@ h2{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.newsletter {
+    margin-left: 120px;
 }
 
 footer{
