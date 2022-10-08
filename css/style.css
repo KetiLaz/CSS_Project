@@ -164,12 +164,12 @@ figcaption{
     background-color: transparent;
     align-self: flex-end;
     margin-top: -60px;
-    margin-right: 90px;
+    margin-right: 120px;
     min-height: 30px;
 }
 
 .section_four {
-    min-height: 20vh;
+    min-height: 15vh;
     margin: 100px;
     border-radius: 20px;
     display: flex;
@@ -199,10 +199,46 @@ footer{
     align-items: center;
 }
 
+@media screen and (max-width: 1200px){
+    .sign_up {
+        margin-top: 0px;
+        align-self: center;
+    }
+    .subtext {
+        margin-left: 40px;
+        margin-top: -30px;
+        width: 40%;
+    }
+    .main_text {
+        margin: 40px;
+        width: 40%;
+
+    }
+    .placeholder {
+        width: 50%;
+        margin-right:20px;
+}
+    
+}
+
 @media screen and (max-width: 600px) {
+    .sign_up {
+        align-self: flex-start;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .newsletter{
+        margin-left: 50px;
+    }
+    h2 {
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    .section_four {
+        min-height: 25vh;
+    }
     .section_two{
         justify-content: center;
-
     }
     button {
         margin-left: 0px;
@@ -217,7 +253,7 @@ footer{
         margin-left: 20px;
     }
     .placeholder{
-        width:450px;
+        width:80%;
         order: -1;
         margin-right:80px;
         margin-top: 40px;
@@ -235,5 +271,6 @@ footer{
     .first_sec{
         width: 100%;
         align-items: center;
+        min-height: 90vh;
     }
 }
